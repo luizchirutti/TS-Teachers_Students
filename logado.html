@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html>
+<title>TS Teachers&Students</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
+</style>
+<body class="Projeto">
+
+<!-- Cores -->
+<!--framework w3.css/ bar-top azul-->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+<title>TS Teachers&Students</title>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Novidades"><i class="fa fa-globe"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Configurações da Conta"><i class="fa fa-user"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Me"><i class="fa fa-envelope"></i></a>
+  <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button w3-padding-large" title="Notificações"><i class="fa fa-bell"></i><span class="w3-badge w3-right w3-small w3-green">3</span></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block" style="width:300px">
+      <a href="#" class="w3-bar-item w3-button">Um novo pedido de amizade</a>
+      <a href="#" class="w3-bar-item w3-button">postou na sua linha do tempo</a>
+      <a href="#" class="w3-bar-item w3-button">Seu amigo gostou do seu post</a>
+    </div>
+  </div>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="Minha conta">
+    <img src="./images/simbolo.jpg" class="w3-circle" style="height:50px;width:50px" alt="simbolo">
+  </a>
+ </div>
+</div>
+
+<div id="BarraDeNvegacao" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-large"> 
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Curtida1 </a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Curtida 2</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Curtida 3</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Meu Perfil</a>
+</div>
+<!--Cores e tamanho-->
+<div class="w3-container w3-content" style="max-width:1400px;margin-top:80px">    
+
+  <div class="w3-row">
+
+    <div class="w3-col m3">
+ 
+      <div class="w3-card w3-round w3-white">
+        <div class="w3-container">
+         <h4 class="w3-center">Meu Perfil</h4>
+         <p class="w3-center"><img src="./images/perfil.png" class="w3-circle" style="height:106px;width:106px" alt="Perfil"></p>
+         <hr>
+         <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i> Estudante, T.I</p>
+         <p><i class="fa fa-home fa-fw w3-margin-right w3-text-theme"></i> Brasil, BR</p>
+         <p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme"></i> Abril 20, 1987</p>
+        </div>
+      </div>
+      <br>
+
+      <div class="w3-card w3-round">
+        <div class="w3-white">
+          <button onclick="Function('Texto1')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-circle-o-notch fa-fw w3-margin-right"></i> Meus Grupos</button>
+          <div id="Texto1" class="w3-hide w3-container">
+            <p>Digite um texto</p>
+          </div>
+          <button onclick="Function('Texto2')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i> Meus Eventos</button>
+          <div id="Texto2" class="w3-hide w3-container">
+            <p>Digite um texto</p>
+          </div>
+          <button onclick="Function('Texto3')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-users fa-fw w3-margin-right"></i> Minhas fotos</button>
+          <div id="Texto3" class="w3-hide w3-container">
+         <div class="w3-row-padding">
+         <br>
+         <!--w3-half, deixando as imagens uma do lado da outra-->
+           <div class="w3-half">
+            <img src="./images/bahia.jpg" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="./images/gatos.jpg" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="./images/pordosol.jpg" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="./images/amanhecer.jpg" style="width:100%" class="w3-margin-bottom">
+           </div>
+         </div>
+          </div>
+        </div>      
+      </div>
+      <br>
+
+      <div class="w3-card w3-round w3-white w3-hide-small">
+        <div class="w3-container">
+          <p>
+               Interesses</p>
+          <p>
+            <span class="w3-tag w3-small w3-theme-d5">Novidades</span>
+            <span class="w3-tag w3-small w3-theme-d4">Tecnologias</span>
+            <span class="w3-tag w3-small w3-theme-d3">Rótulos</span>
+            <span class="w3-tag w3-small w3-theme-d2">Esportes</span>
+            <span class="w3-tag w3-small w3-theme-d1">Livros</span>
+            <span class="w3-tag w3-small w3-theme">Jogos</span>
+            <span class="w3-tag w3-small w3-theme-l1">Amigos</span>
+            <span class="w3-tag w3-small w3-theme-l2">Comidas</span>
+            <span class="w3-tag w3-small w3-theme-l3">Design</span>
+            <span class="w3-tag w3-small w3-theme-l4">Arte</span>
+            <span class="w3-tag w3-small w3-theme-l5">Fotos</span>
+          </p>
+        </div>
+      </div>
+      <br>
+
+      <div class="w3-container w3-display-container w3-round w3-theme-l4 w3-border w3-theme-border w3-margin-bottom w3-hide-small">
+        <span onclick="this.parentElement.style.display='none'" class="w3-button w3-theme-l3 w3-display-topright">
+          <i class="fa fa-remove"></i>
+        </span>
+        <p><strong>Olá!</strong></p>
+        <p> As pessoas estão olhando para o seu perfil. Descubra quem são.</p>
+      </div>
+    
+
+    </div>
+
+    <div class="w3-col m7">
+    
+      <div class="w3-row-padding">
+        <div class="w3-col m12">
+          <div class="w3-card w3-round w3-white">
+            <div class="w3-container w3-padding">
+              <h6 class="w3-opacity">TS Teachers&Students</h6>
+              <p contenteditable="true" class="w3-border w3-padding">Status: O que está pensando?</p>
+              <button type="button" class="w3-button w3-theme"><i class="fa fa-pencil"></i>  Postar</button> 
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <img src="./images/perfil.jpg" alt="Primeiro passeio de bicicleta ninguém esquece." class="w3-left w3-circle w3-margin-right" style="width:60px">
+        <span class="w3-right w3-opacity">1 min</span>
+        <h4>Junior Lima</h4><br>
+        <hr class="w3-clear">
+        <p>Semana de prova </p>
+          <div class="w3-row-padding" style="margin:0 -16px">
+            <div class="estudos">
+              <img src="./images/estudo.jpg" style="width:100%" alt="Northern Lights" class="w3-margin-bottom">
+            </div>
+        </div>
+        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Curtir</button> 
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comentar</button> 
+      </div>
+      
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <img src="./images/perfil2.jpg" alt="Perfil" class="w3-left w3-circle w3-margin-right" style="width:60px">
+        <span class="w3-right w3-opacity">16 min</span>
+        <h4>Luana Oliveira</h4><br>
+        <hr class="w3-clear">
+        <p>Semana de prova</p>
+        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i> Curtir</button> 
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comentar</button> 
+      </div>  
+
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <img src="./images/perfil3.jpg" alt="Perfil3" class="w3-left w3-circle w3-margin-right" style="width:60px">
+        <span class="w3-right w3-opacity">32 min</span>
+        <h4>Marcos Souza</h4><br>
+        <hr class="w3-clear">
+        <p>Materia Nova</p>
+        <img src="./images/materia.jpg" style="width:100%" class="w3-margin-bottom">
+        <p>Divindo conhecimento com meus alunos.</p>
+        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Curtir</button> 
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comentar</button> 
+      </div> 
+
+    </div>
+    <div class="w3-col m2">
+      <div class="w3-card w3-round w3-white w3-center">
+        <div class="w3-container">
+          <p>Próximos Eventos:</p>
+          <img src="./images/evento.jpg" alt="eventos" style="width:100%;">
+          <p><strong>Feriado</strong></p>
+          <p>Sexta - Feira 18:00</p>
+          <p><button class="w3-button w3-block w3-theme-l4">Informações</button></p>
+        </div>
+      </div>
+      <br>
+      
+      <div class="w3-card w3-round w3-white w3-center">
+        <div class="w3-container">
+          <p>Pedido de Amizade</p>
+          <img src="./images/perfil 4.jpg" alt="SolicitacaoDeAmizade" style="width:50%"><br>
+          <span>Antonio Silva</span>
+          <div class="w3-row w3-opacity">
+            <div class="w3-half">
+              <button class="w3-button w3-block w3-green w3-section" title="Aceitar"><i class="fa fa-check"></i></button>
+            </div>
+            <div class="w3-half">
+              <button class="w3-button w3-block w3-red w3-section" title="Recusar"><i class="fa fa-remove"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      
+    </div>
+
+  </div>
+
+</div>
+<br>
+
+
+
+<footer class="w3-container w3-theme-d5">
+  <p>TS Teachers&Students </a></p>
+</footer>
+
+<script type="text/javascript" src="funcoes.js"></script>
+ 
+<script>
+
+</script>
+
+</body>
+</html> 
